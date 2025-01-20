@@ -1,0 +1,56 @@
+body{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color:darkslateblue;
+  color: white;
+  text-transform: uppercase;
+}
+
+.gamename{
+  font-size: 29px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 
+    1px 1px 0 #000,  
+    2px 2px 0 #444,  
+    3px 3px 0 #666,  
+    4px 4px 0 #888,  
+    5px 5px 0 #aaa;
+}
+.gamename::after{
+  color: #ccc;
+  transform: scale(1.1);
+}
+.play-icon{
+  height: 70px;
+  width: auto;
+  cursor: pointer;
+}
+
+.play-button{
+  background-color: transparent;
+  border-radius: 50%;
+  border: 2px solid gold;
+  width: 100px;
+  height:110px;
+  margin-right: 13px;
+  transition: 0.3s;
+  margin-bottom: 30px;
+}
+.play-button:hover{
+  background-color: rgba(128, 128, 128, 0.39);
+}
+
+.results{
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 40px;
+}
+.reset-score{
+  background-color: gold
+  ;
+  border: none;
+  color: white;
+  font-size: 18px;
+  padding: 10px 17px;
+  cursor: pointer;
+}
